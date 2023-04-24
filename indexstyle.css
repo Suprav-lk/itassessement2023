@@ -1,0 +1,236 @@
+body {
+    font-family: "aktiv-grotesk","Helvetica Neue","Arial Narrow",sans-serif;
+    background-color:#5badde; height: 63vw; position:center;
+    background-size: cover;
+    position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*--------------HERO START----------------*/
+
+.hero-image{
+  background-size: cover;
+  height: 990px;
+  position: relative;
+}
+
+.hero-text{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* NAME */
+.hero-text>p{
+  text-align: center;
+  text-align:justify;
+  text-shadow:2px 2px 4px #000000;
+  font-weight:bold;
+  font-size:7.5vw;
+  margin-top:23vw;
+  padding:2vw;
+}
+
+.hidemotto{
+  display:none;
+  
+}
+
+.hero-text>p:hover + .hidemotto{
+  display:block;
+  text-align:center;
+  position:fixed;
+}
+
+.Motto{
+  text-align: center;
+  font-size:2.2vw;
+  color:white;
+  margin-bottom:2vw;
+  font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS';
+}
+
+/*--------------HERO ENDS----------------*/
+
+
+
+
+
+/*-------------LOGO START-------------*/
+.logo {
+  position:relative;
+  float:left;
+  padding:auto;
+}
+
+.hideslogan{
+  display:none;
+}
+
+.logo:hover + .hideslogan{
+  position:fixed;
+  display:block;
+  text-align:center;
+  transition-delay:2s;
+  margin-left:9vw;
+  margin-top:2.6vw;
+}
+
+.Slogan{
+  color:white;
+  font-size:1.26vw;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*-------------LOGO END-------------*/
+
+
+
+
+
+
+
+/* -----------HAMBURGER MENU START------------- */ 
+
+.fas{
+  position:relative;
+  float:right;
+  color:white;
+  text-align:center;
+  font-size: 2.1vw;
+  text-decoration: none;
+  margin-top:1vw; 
+  margin-right:2vw;  
+}
+
+.fas:hover{
+  color:gray;
+}
+
+/* ------------HAMBURGER MENU END-------------- */
+
+
+
+
+
+/* --------------------------------------------------SOCIALS START--------------------------------------------*/
+
+.fa-brands, .fa-regular, .fa-solid{
+  float:right;
+  display:inline;
+  padding-top:5vw;
+  margin-top:35vw;
+  margin-right:1vw;
+  font-size:2.4vw;
+  padding:none;
+}
+
+/*---------------------------FACEBOOK START--------------------------*/
+.facebook>.fa-brands{
+  color:white;
+  text-decoration:none;
+}
+
+.facebook>.fa-brands:hover{
+  font-size:2.6vw;
+}
+/*---------------------------FACEBOOK END----------------------------*/
+
+/*--------------------------MAIL START----------------------------*/
+.mail>.fa-regular{
+  color:white;
+  text-decoration:none;
+}
+
+.mail>.fa-regular:hover{
+  font-size:2.6vw;
+}
+/*----------------------------MAIL END------------------------------*/
+
+/*-------------------------PHONE START---------------------*/
+.fa-solid{
+  color:white;
+  text-decoration:none;
+
+}
+
+.fa-solid:hover{
+  font-size:2.6vw;
+}
+
+.hidephone{
+  display:none;
+}
+.fa-solid:hover+.hidephone{
+  color:white;
+  font-size:37px;
+}
+/*-------------------------PHONE END ----------------------------------*/
+
+/*------------------------WHATSAPP START--------------------------------*/
+.whatsapp>.fa-brands{
+  color:white;
+  text-decoration:none;
+  display:block;
+}
+
+.whatsapp>.fa-brands:hover{
+  font-size:2.6vw;
+}
+/*-------------------------WHATSAPP END----------------------------------*/
+
+/*-------------------------LINKEDIN START----------------------------------*/
+.linkedin>.fa-brands{
+  color:white;
+  text-decoration:none;
+}
+
+.linkedin>.fa-brands:hover{
+  font-size:2.6vw;
+}
+/*-------------------------LINKEDIN END----------------------------------*/
+
+
+/* ------------------------------------------------------------SOCIALS END---------------------------------------------------*/
+
+
+
+
+
+
+/* -------------------------------------PAGINATION START-------------------------------------- */ 
+
+.center {
+  text-align: center;
+  
+}
+
+.pagination {
+  display: inline-block;
+}
+  
+.pagination a {
+  color: black;
+  float: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #dddddd;
+  margin: 0 4px;
+}
+  
+.pagination a.active {
+  background-color:deepskyblue;
+  color: white;
+  border: 1px solid deepskyblue;
+}
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/*-----------------------------------PAGINATION END---------------------------------------------*/
