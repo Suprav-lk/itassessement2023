@@ -1,0 +1,61 @@
+body {
+    font-family: "aktiv-grotesk","Helvetica Neue","Arial Narrow",sans-serif;
+    color:#7ecfe8;
+    background-color: #5badde;
+    background-size:cover;
+    position: relative;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.logo {
+    position:relative;
+    float:left;
+    padding:auto;
+    margin-top:1vw;
+}
+
+p{  
+    padding:10vw;
+}
+
+
+
+
+/* -------------------------------------PAGINATION START-------------------------------------- */ 
+
+.center {
+    text-align: center;
+    padding-top:10vw;
+    margin-bottom:2vw;
+
+    
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+    
+  .pagination a {
+    color: black;
+    float: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #dddddd;
+    margin: 0 4px;
+  }
+    
+  .pagination a.active {
+    background-color:deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+  }
+    
+  .pagination a:hover {background-color: #ddd;}
+  
+  /*-----------------------------------PAGINATION END---------------------------------------------*/
