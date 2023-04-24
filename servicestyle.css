@@ -1,0 +1,78 @@
+body {
+    font-family: "aktiv-grotesk","Helvetica Neue","Arial Narrow",sans-serif;
+    color:#7ecfe8;
+    background-color: #7d8082;
+    background-size:cover;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+.logo {
+    position:relative;
+    float:left;
+    padding:auto;
+    margin-top:1vw;
+}
+
+
+.content{
+    margin-right:10vw;
+    margin-top:1vw; 
+    padding-top:3vw;
+    float:right;
+}
+
+.content>h1{
+    text-align:center;
+    padding:2vw;
+    margin-right:30vw;
+}
+
+hr{
+    margin-right:30vw;
+}
+
+.table{
+    padding:5vw;
+}
+
+/*---------------------------------------------------*/
+
+
+/* -------------------------------------PAGINATION START-------------------------------------- */ 
+
+.center {
+    text-align: center;
+    margin-bottom:2vw;
+    padding-top:133vw;
+    margin-left:10vw;
+    margin-right:10vw;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+    
+  .pagination a {
+    color: black;
+    float: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #dddddd;
+    margin: 0 4px;
+  }
+    
+  .pagination a.active {
+    background-color:deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+  }
+    
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  /*-----------------------------------PAGINATION END---------------------------------------------*/
