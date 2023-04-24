@@ -1,0 +1,250 @@
+body {
+    font-family: "aktiv-grotesk","Helvetica Neue","Arial Narrow",sans-serif;
+    color:#7ecfe8;
+    background-color: #118ee1;
+    background-size:cover;
+    position: relative;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+.logo {
+    position:relative;
+    float:left;
+    padding:auto;
+    margin-top:1vw;
+}
+
+
+/*----------------------TITLE STARTS------------------------*/
+h1 {
+    text-align:right;
+    padding-top:2vw;
+    padding-right:10vw;
+    padding-bottom:2vw;
+    font-size:3.5vw;
+    text-shadow:0.1vw 0.1vw 0.5vw #000000;
+}
+/*----------------------TITLE ENDS ------------------------*/
+
+
+
+/*-------------------INFORMATION DESK STARTS-------------------*/
+.infodesk{
+    font-size:1.4vw;
+    padding:3vw 3vw 1vw 3vw;
+    display:flex;
+}
+
+.infodesk>h2{
+    text-decoration:underline;
+    text-decoration-color: white;
+    padding-left:10vw;
+    padding-top:4vw;
+}
+
+.infodesk>span>nav{
+    padding:5vw 5vw 2vw 5vw;
+}
+
+/*-------------------INFORMATION DESK ENDS-------------------*/
+
+
+
+/*-------------------ADVERTISEMENT IN NEPALS DAILY NEWSPAPER STARTS-----------*/
+
+.ads{
+    font-size:1.4vw;
+    padding:0.1vw 3vw 3vw 3vw;
+    display:flex;
+}
+
+.ads>h2{
+    text-decoration:underline;
+    text-decoration-color: white;
+    padding-left:10vw;
+    padding-top:1vw;
+}
+
+.ads>span>nav{
+    padding:1vw;
+}
+
+/*-------------------ADVERTISEMENT IN NEPALS DAILY NEWSPAPER ENDS-----------*/
+
+
+/*-------------------Selection of Candidates starts ---------------*/
+.selection{
+    font-size:1.4vw;
+    padding:3vw;
+    display:flex;
+}
+
+.selection>h2{
+    text-decoration:underline;
+    text-decoration-color: white;
+    padding-left:10vw;
+    padding-top:1vw;
+}
+
+.selection>span>nav{
+    padding:1vw;
+}
+/*-------------------Selection of Candidates ends-----------------*/
+
+
+
+
+/*-------------------- Medical Check up STARTS ---------------------*/
+
+.medical{
+    font-size:1.4vw;
+    padding:1vw;
+  
+}
+
+.medical>h2{
+    text-decoration:underline;
+    text-decoration-color: white;
+    padding:1vw 10vw 1vw 10vw;
+}
+
+.medical>span>nav{
+    padding:1vw;
+    margin-left:10vw;
+    margin-right:10vw;
+
+}
+/*------------------- Medical Check up ENDS ----------------------*/
+
+
+
+
+
+/*--------------------Visa Processing STARTS --------------------*/
+.visa{
+    font-size:1.4vw;
+    padding:3vw;
+}
+
+.visa>h2{
+    text-decoration:underline;
+    text-decoration-color: white;
+    padding:1vw 10vw 1vw 10vw;
+}
+
+.visa>span>nav{
+    padding:1vw 10vw 1vw 10vw;
+}
+/*--------------------Visa Processing ENDS --------------------*/
+
+
+
+
+/*--------------------Orientation STARTS --------------------*/
+.orient{
+    font-size:1.4vw;
+    padding:3vw;
+    display:flex;
+}
+
+.orient>h2{
+    text-decoration:underline;
+    text-decoration-color: white;
+    padding-left:10vw;
+    padding-top:1vw;
+}
+
+.orient>span>nav{
+    padding:1vw;
+}
+/*--------------------Orientation ENDS --------------------*/
+
+
+
+
+/*--------------------Final Approval from DOL --------------------*/
+.approval{
+    font-size:1.4vw;
+    padding:3vw;
+    display:flex;
+}
+
+.approval>h2{
+    text-decoration:underline;
+    text-decoration-color: white;
+    padding-left:10vw;
+    padding-top:1vw;
+}
+
+.approval>span>nav{
+    padding:1vw;
+}
+/*--------------------Final Approval from DOL --------------------*/
+
+
+
+
+/*--------------------Departure STARTS --------------------*/
+.departure{
+    font-size:1.4vw;
+    padding:3vw;
+    display:flex;
+}
+
+.departure>h2{
+    text-decoration:underline;
+    text-decoration-color: white;
+    padding-left:10vw;
+    padding-top:1vw;
+}
+
+.departure>span>nav{
+    padding:1vw;
+}
+/*--------------------Departure ENDS --------------------*/
+
+
+hr{
+    padding-left:3vw;
+}
+
+
+
+
+
+/* -------------------------------------PAGINATION START-------------------------------------- */ 
+
+.center {
+    text-align: center;
+    padding:5vw;
+    
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+    
+  .pagination a {
+    color: black;
+    float: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #dddddd;
+    margin: 0 4px;
+  }
+    
+  .pagination a.active {
+    background-color:deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+  }
+    
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  /*-----------------------------------PAGINATION END---------------------------------------------*/
